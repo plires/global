@@ -37,4 +37,5 @@ dist-ssr
 **/vendor
 **/build/
 **/public/
+firmas
 .env
