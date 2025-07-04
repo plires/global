@@ -16,23 +16,25 @@ import NotFound from '@/pages/NotFound'
 function App() {
   return (
     <>
-      <Header />
-      <main className='page'>
-        <ToastContainer autoClose={false} />
-        <ScrollToTop />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/nosotros' element={<Nosotros />} />
-          <Route
-            path='/servicios-soluciones'
-            element={<ServiciosSoluciones />}
-          />
-          <Route path='/tecnologia' element={<Tecnologia />} />
-          <Route path='/contacto' element={<Contacto />} />
-          <Route path='*' element={<NotFound />} />
-        </Routes>
-      </main>
-      <Footer />
+      <Router basename='/dev/'>
+        <Header />
+        <main className='page'>
+          <ToastContainer autoClose={false} />
+          <ScrollToTop />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/nosotros' element={<Nosotros />} />
+            <Route
+              path='/servicios-soluciones'
+              element={<ServiciosSoluciones />}
+            />
+            <Route path='/tecnologia' element={<Tecnologia />} />
+            <Route path='/contacto' element={<Contacto />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
     </>
   )
 }
