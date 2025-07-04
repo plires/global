@@ -4,6 +4,7 @@
   overflow: hidden;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+  z-index: 3;
 }
 
 .title {

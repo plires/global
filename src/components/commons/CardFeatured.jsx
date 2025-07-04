@@ -19,15 +19,11 @@ const CardFeatured = ({ item, col = 'col-md-6' }) => {
   }, [])
   return (
     <div
-      data-aos='fade-up'
       onMouseEnter={isDesktop ? () => setIsOpen(true) : undefined}
       onMouseLeave={isDesktop ? () => setIsOpen(false) : undefined}
       className={`${col}`}
     >
-      <div
-        data-aos='fade-up'
-        className={`${styles.card} ${isOpen ? 'open' : ''}`}
-      >
+      <div className={`${styles.card} ${isOpen ? 'open' : ''}`}>
         <h3
           className={`transition ${styles.title}`}
           dangerouslySetInnerHTML={{ __html: item.title }}
