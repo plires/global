@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgSrc": "icon-infraestructura.svg",
+      "title": "Infraestructura a medida",
+      "description": "Brindamos soluciones logísticas flexibles que se adaptan al crecimiento y a las necesidades de cada negocio."
+    },
+    {
+      "id": 2,
+      "imgSrc": "icon-operaciones.svg",
+      "title": "Operaciones dedicadas<br />y compartidas",
+      "description": "Disponemos de una amplia superficie operativa y desarrollamos soluciones a medida para cada industria."
+    },
+    {
+      "id": 3,
+      "imgSrc": "icon-compromiso.svg",
+      "title": "Compromiso con la calidad",
+      "description": "Cumplimos con normas internacionales de calidad, seguridad y ambiente, y nos enfocamos en la innovación permanente."
+    }
+  ]
+}

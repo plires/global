@@ -1,0 +1,159 @@
+.imagenTexto {
+  position: relative;
+  margin-bottom: 60px;
+  background: var(--neutral-color);
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.imagenTexto .compu {
+  margin-top: -45px;
+  margin-bottom: 1rem;
+}
+
+.imagenTexto .contentData {
+  order: 1;
+}
+
+.imagenTexto h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.imagenTexto h3 br {
+  display: none;
+}
+
+.imagenTexto a {
+  display: inline-block;
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+}
+
+.imagenTexto a:hover {
+  color: var(--primary-color-bis);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .imagenTexto .content {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagenTexto h3 {
+    font-size: 2rem;
+  }
+
+  .imagenTexto .compu {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .imagenTexto .compu {
+    max-width: 80%;
+  }
+
+  .imagenTexto .content {
+    max-width: 60%;
+  }
+
+  .imagenTexto h3 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .imagenTexto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .imagenTexto .compu {
+    position: absolute;
+    max-width: 100%;
+  }
+
+  .imagenTexto h3 br {
+    display: inline-block;
+  }
+
+  .imagenTexto .content {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .imagenTexto .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenTexto .contentImg {
+    position: relative;
+  }
+
+  .imagenTexto .contentData {
+    order: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagenTexto {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 100px;
+  }
+
+  .imagenTexto .content {
+    max-width: 80%;
+  }
+
+  .imagenTexto .compu {
+    max-width: 115%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .imagenTexto {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .imagenTexto .content {
+    max-width: 75%;
+  }
+
+  .imagenTexto .content p {
+    font-size: 1.115rem;
+  }
+
+  .imagenTexto .content a {
+    font-size: 1.35rem;
+  }
+
+  .imagenTexto h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .imagenTexto {
+    padding-bottom: 80px;
+  }
+
+  .imagenTexto .content {
+    margin-top: 20px;
+    max-width: 500px;
+  }
+
+  .imagenTexto h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1800px) {
+}

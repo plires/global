@@ -1,0 +1,168 @@
+.item {
+  position: relative;
+  z-index: 10;
+}
+
+.acordion {
+  position: relative;
+}
+
+.button:global(:not(.collapsed)) {
+  border-bottom: solid 3px var(--secondary-color);
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: transparent !important;
+  padding-left: 40px !important;
+}
+
+.button:global(.collapsed) {
+  border-bottom: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: transparent !important;
+}
+
+.button.btnSubAcordion:global(.collapsed) {
+  color: var(--secondary-color) !important;
+}
+
+.body {
+  padding: 2rem !important;
+}
+
+.body ul {
+  list-style: disc !important;
+}
+
+.body ul li {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.subBody {
+  padding-top: 0.5rem !important;
+  background-color: red !important;
+}
+
+.btnSubAcordion:global(.collapsed) {
+  background: transparent !important;
+  border-bottom: solid 1px black;
+  padding-left: 0 !important;
+}
+
+.btnSubAcordion:global(:not(.collapsed)) {
+  background: transparent !important;
+  border-bottom: solid 1px black;
+}
+
+.subAcordion {
+  border: none !important;
+}
+
+.subAcordion .btnSubAcordion {
+  border-radius: 0 !important;
+  font-size: 1rem;
+}
+
+.subAcordion .body {
+  padding: 1rem 0 0 0 !important;
+}
+
+.subAcordion .body ul {
+  padding-left: 12px !important;
+}
+
+.btnLink {
+  background-color: white !important;
+  border: solid 1px black !important;
+  color: black !important;
+  font-size: 0.9rem !important;
+  padding: 0.25rem 1rem !important;
+  font-weight: bold !important;
+}
+
+.btnLink:hover {
+  background-color: var(--secondary-color) !important;
+  border: solid 1px var(--secondary-color) !important;
+  color: white !important;
+}
+
+.contentSubtitle {
+  padding-right: 0 !important;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .btnLink {
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .button:global(:not(.collapsed)) {
+    font-size: 1.75rem;
+  }
+
+  .button:global(.collapsed) {
+    font-size: 1.75rem;
+  }
+
+  .subAcordion .btnSubAcordion {
+    border-radius: 0 !important;
+    font-size: 1.25rem;
+  }
+
+  .body ul li {
+    font-size: 1rem;
+  }
+
+  .btnLink {
+    font-size: 1rem !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button:global(:not(.collapsed)) {
+    font-size: 2rem;
+  }
+
+  .button:global(.collapsed) {
+    font-size: 2rem;
+  }
+
+  .subAcordion .btnSubAcordion {
+    border-radius: 0 !important;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

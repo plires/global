@@ -1,0 +1,43 @@
+.tecnologia .fajaGlobal {
+  margin-bottom: 60px;
+}
+
+.tecnologia .contentCardsFeatures {
+  margin-bottom: 60px;
+}
+
+.tecnologia .formGlobal {
+  background: #3f3e3e;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .tecnologia .fajaGlobal {
+    margin-bottom: 100px;
+  }
+
+  .tecnologia .formGlobal {
+    padding-top: 150px;
+    margin-top: -200px;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

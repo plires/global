@@ -1,0 +1,110 @@
+.card {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.imgBack {
+  position: relative;
+  z-index: -1;
+}
+
+.contentDescription {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  bottom: -100%;
+  left: 0;
+  color: white;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  z-index: 0;
+  font-size: 0.85rem;
+}
+
+.card:global(.open) .contentDescription {
+  bottom: 0;
+}
+
+.card:global(.open) .contentViewMore,
+.card:global(.open) .title {
+  color: var(--secondary-color);
+}
+
+.contentViewMore {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  text-align: right;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentViewMore:hover {
+  color: var(--secondary-color);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .contentViewMore {
+    display: none;
+  }
+
+  .card:global(.open) .title {
+    color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .contentDescription {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 2rem;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .contentDescription {
+    padding: 2rem;
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

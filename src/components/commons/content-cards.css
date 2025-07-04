@@ -1,0 +1,185 @@
+.sectionContentCards {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.sectionContentCards .figuraIzq {
+  display: none;
+  z-index: -1;
+}
+
+.sectionContentCards .contentFrase {
+  margin-bottom: -150px;
+}
+
+.sectionContentCards .contentFrase .frase {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.sectionContentCards .contentImg {
+  position: relative;
+  z-index: -1;
+}
+
+.sectionContentCards .contentImg .barcoImg {
+  height: 400px;
+  object-fit: cover;
+}
+
+.sectionContentCards .contentData {
+  margin-top: -100px;
+}
+
+.sectionContentCards .contentData .data {
+  background: black;
+  color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionContentCards .contentData .data h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sectionContentCards .contentData .data p {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .sectionContentCards .contentFrase .frase {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionContentCards .figuraIzq {
+    display: inline-block;
+    position: absolute;
+    width: 450px;
+    top: 56px;
+    left: 0;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 450px;
+  }
+
+  .sectionContentCards .contentData {
+    margin-top: -150px;
+  }
+
+  .sectionContentCards .contentData .data {
+    max-width: 100%;
+  }
+
+  .sectionContentCards .contentData .data h2 {
+    margin-bottom: 30px;
+  }
+
+  .sectionContentCards .contentData .data p {
+    display: inline-block;
+  }
+
+  .sectionContentCards .contentData .data p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionContentCards .figuraIzq {
+    top: 25px;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 500px;
+  }
+
+  .sectionContentCards .contentFrase .frase {
+    font-size: 1.75rem;
+  }
+
+  .sectionContentCards .contentData .data {
+    padding: 2rem 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sectionContentCards .figuraIzq {
+    width: 620px;
+    top: -180px;
+  }
+
+  .sectionContentCards .contentFrase {
+    margin-bottom: -200px;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 600px;
+  }
+
+  .sectionContentCards .contentData {
+    margin-top: -200px;
+  }
+
+  .sectionContentCards .contentData .data {
+    padding: 3rem 6rem;
+  }
+
+  .sectionContentCards .contentData .data h2 {
+    font-size: 2.5rem;
+  }
+
+  .sectionContentCards .contentData .data p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .sectionContentCards .contentFrase {
+    margin-bottom: -250px;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 700px;
+  }
+
+  .sectionContentCards .contentData {
+    margin-top: -250px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .sectionContentCards .figuraIzq {
+    left: -100px;
+    top: -115px;
+  }
+
+  .sectionContentCards .contentFrase .frase {
+    font-size: 2rem;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 750px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .sectionContentCards .figuraIzq {
+    top: -100px;
+    left: -65px;
+  }
+
+  .sectionContentCards .contentImg .barcoImg {
+    height: 800px;
+  }
+}

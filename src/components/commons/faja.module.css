@@ -1,0 +1,55 @@
+.faja {
+  margin-bottom: 30px;
+  padding: 30px 12px;
+  text-align: center;
+}
+
+.faja h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.faja p {
+  margin-bottom: 0;
+}
+
+.faja p span {
+  font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .faja {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faja {
+    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .faja h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .faja p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

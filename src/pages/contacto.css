@@ -1,0 +1,42 @@
+.contacto .sectionFormGlobal {
+  margin-top: -90px;
+}
+
+.contacto .datosGlobal {
+  margin-bottom: 30px;
+}
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .contacto .sectionFormGlobal {
+    margin-top: -150px;
+  }
+
+  .contacto .datosGlobal {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+  .contacto .sectionFormGlobal {
+    margin-top: -200px;
+  }
+
+  .contacto .datosGlobal {
+    margin-bottom: 100px;
+  }
+}

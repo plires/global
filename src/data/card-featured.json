@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgSrc": "analitycs.webp",
+      "title": "Data<br />Analytics",
+      "description": "Tomamos decisiones basadas en datos. Nuestro sistema de analítica avanzada permite optimizar rutas, anticipar necesidades y mejorar la eficiencia en cada etapa del proceso logístico."
+    },
+    {
+      "id": 2,
+      "imgSrc": "warehousing.webp",
+      "title": "Warehousing",
+      "description": "Contamos con depósitos inteligentes gestionados por tecnología WMS, que garantizan almacenamiento ordenado, control de stock en tiempo real y operaciones ágiles y seguras."
+    },
+    {
+      "id": 3,
+      "imgSrc": "trazabilidad.webp",
+      "title": "Trazabilidad",
+      "description": "Desde el ingreso al depósito hasta la entrega final, cada movimiento de tu mercadería queda registrado. Ofrecemos visibilidad completa del proceso, en todo momento."
+    },
+    {
+      "id": 4,
+      "imgSrc": "transport.webp",
+      "title": "Transport<br />Management",
+      "description": "Gestionamos el transporte de forma centralizada y digital. Control total sobre rutas, flotas y entregas, con monitoreo en tiempo real para asegurar puntualidad y eficiencia."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+.cardServicios .content {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardServicios .content .contentData .flecha {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.cardServicios .content .title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cardServicios .content .title:hover {
+  color: var(--neutral-color);
+}
+
+.cardServicios .content.open .title {
+  margin-bottom: 8px;
+}
+
+.cardServicios .content .description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    transform 0.5s ease;
+  visibility: hidden;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+}
+
+.cardServicios .content.open .description {
+  max-height: 500px; /* Ajustá según el contenido esperado */
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.cardServicios .content img {
+  position: relative;
+  z-index: -2;
+}
+
+.cardServicios .overlay.open {
+  top: 0;
+  opacity: 1;
+}
+
+.cardServicios .overlay {
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    transform 0.5s ease;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.7);
+  z-index: -1;
+  opacity: 0;
+}
+
+.cardServicios .content .contentData {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.cardServicios .content .contentData a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.cardServicios .content .contentData a:hover {
+  color: var(--secondary-color);
+}
+
+@keyframes subirSuave {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-16px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cardServicios .flechaAnimada {
+  animation: subirSuave 2s ease-in-out infinite;
+  -webkit-animation: subirSuave 2s ease-in-out infinite;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .cardServicios .content .contentData .flecha {
+    font-size: 2.5rem;
+  }
+
+  .cardServicios .content .contentData .title {
+    font-size: 1.5rem;
+  }
+
+  .cardServicios .content .contentData a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .cardServicios .content .contentData .flecha {
+    font-size: 3rem;
+    cursor: none;
+  }
+
+  .cardServicios .content .contentData .title {
+    font-size: 2rem;
+    cursor: none;
+  }
+
+  .cardServicios .content .contentData a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardServicios .content .contentData .flecha {
+    font-size: 2rem;
+  }
+
+  .cardServicios .content .contentData .title {
+    font-size: 1.25rem;
+  }
+
+  .cardServicios .content .contentData a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardServicios .content .contentData .flecha {
+    font-size: 2.5rem;
+  }
+
+  .cardServicios .content .contentData .title {
+    font-size: 1.75rem;
+  }
+
+  .cardServicios .content .contentData a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

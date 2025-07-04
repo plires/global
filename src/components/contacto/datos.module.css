@@ -1,0 +1,55 @@
+.cardDato {
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.cardDato a {
+  padding: 1rem;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.cardDato a:hover {
+  color: var(--neutral-color);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .cardDato a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .cardDato a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardDato a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

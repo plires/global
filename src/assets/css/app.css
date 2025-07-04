@@ -1,0 +1,92 @@
+/* Variables */
+:root {
+  --primary-color: rgba(26, 23, 27, 1);
+  --primary-color-bis: rgba(107, 107, 107, 1);
+  --secondary-color: rgba(179, 18, 24, 1);
+  --secondary-color-bis: rgba(124, 13, 21, 1);
+  --neutral-color: rgba(216, 216, 216, 1);
+}
+/* Variables end */
+
+.transition {
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+
+body {
+  font-family: 'Poppins' !important;
+  background: white;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: var(--third-color);
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0 !important;
+  list-style: none;
+}
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+a.btnSite {
+  background: var(--primary-color);
+  color: white;
+  width: fit-content;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.btnSite:hover {
+  background: black;
+}
+
+#root {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

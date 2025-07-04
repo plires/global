@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgSrc": "icon-servicio.svg",
+      "title": "SERVICIO LOGÍSTICO<br />INTERNACIONAL",
+      "description": "Ofrecemos servicios de transporte y gestión de carga en todo el mundo, garantizando eficiencia, trazabilidad y acompañamiento en cada etapa del proceso."
+    },
+    {
+      "id": 2,
+      "imgSrc": "icon-personalizado.svg",
+      "title": "acompañamiento<br />personalizado",
+      "description": "Priorizamos el trato personalizado para entender y resolver cada necesidad con eficacia. Nos comprometemos a generar vínculos sólidos y duraderos con nuestros clientes."
+    },
+    {
+      "id": 3,
+      "imgSrc": "icon-tecnologia.svg",
+      "title": "Tecnología<br />de vanguardia",
+      "description": "Invertimos en sistemas de gestión de última generación para ofrecer visibilidad en tiempo real, garantizando transparencia, eficiencia y seguridad en cada envío."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+.formulario {
+  margin-bottom: 60px;
+  background: white;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+}
+
+.formulario input,
+.formulario textarea {
+  border: none;
+}
+
+.contentForm {
+  padding: 1.5rem;
+}
+
+.title {
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.preTitle {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.formulario form {
+  text-align: left;
+}
+
+.formulario .formCheck {
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.inputContainer {
+  position: relative !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.input {
+  background: transparent !important;
+  border-bottom: solid 3px var(--secondary-color) !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  font-size: 16px;
+  color: var(--secondary-color) !important;
+  padding-left: 0 !important;
+}
+
+.input:focus,
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.formulario textarea {
+  resize: none;
+  color: var(--secondary-color) !important;
+}
+
+.label {
+  position: absolute !important;
+  left: 10px !important;
+  top: 10px !important;
+  font-size: 0.85rem !important;
+  transition: all 0.3s ease !important;
+  pointer-events: none !important; /* Evita que el label sea clickeable */
+  color: var(--secondary-color);
+}
+
+.labelComments {
+  top: 75px !important;
+}
+
+.inputContainer:not(.selectContainer):has(.input:focus) .label {
+  color: var(--primary-color);
+  top: -10px !important;
+  font-size: 12px !important;
+}
+
+.inputContainer:has(.input:focus) .label,
+.inputContainer:has(.input:not(:placeholder-shown)) .label {
+  color: var(--primary-color);
+  top: -10px !important;
+  font-size: 12px !important;
+}
+
+.selectContainer .labelSelect {
+  margin-top: 16px !important;
+  margin-bottom: 8px !important;
+  color: var(--secondary-color) !important;
+  font-size: 16px !important;
+}
+
+.inputSelect {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  border: none;
+  color: var(--secondary-color) !important;
+}
+
+.contentBtn {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnSend {
+  background-color: transparent !important;
+  color: var(--secondary-color) !important;
+  width: auto;
+  margin-top: 30px;
+  font-size: 1rem !important;
+  padding: 0 !important;
+  border: none !important;
+  font-weight: 600;
+}
+
+.btnSend:hover {
+  color: var(--primary-color-bis) !important;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .title {
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionForm {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .formulario {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .contentForm {
+    padding: 3rem;
+  }
+
+  .preTitle {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .label {
+    font-size: 1rem !important;
+  }
+
+  .btnSend {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .formulario {
+    margin: 0;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}

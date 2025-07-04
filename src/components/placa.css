@@ -1,0 +1,95 @@
+/* Asegura que html y body no tengan márgenes */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Estilo principal del contenedor */
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  justify-content: center; /* centra horizontalmente */
+  overflow: hidden;
+}
+
+/* Imagen de fondo */
+.header .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Contenido centrado */
+.header .content {
+  position: relative;
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .content .logo {
+  max-width: 80% !important;
+  width: 80% !important;
+  margin-bottom: 30px;
+}
+
+.header .content a {
+  background: white !important;
+  border: none !important;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header .content a:hover {
+  background: black !important;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .header .content .logo {
+    max-width: 60% !important;
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .header .content .logo {
+    max-width: 525px !important;
+    width: 525px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .content .logo {
+    max-width: 635px !important;
+    width: 635px !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

@@ -1,0 +1,98 @@
+.contentCard {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+}
+
+.contentCard h3 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contentCard img {
+  max-width: 80px;
+  margin-bottom: 30px;
+}
+
+.contentCard p {
+  margin-bottom: 0;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .contentCard {
+    padding: 1rem;
+    height: 365px;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  .contentCard h3 {
+    font-size: 1rem;
+  }
+
+  .contentCard img {
+    max-width: 60px;
+  }
+
+  .contentCard p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contentCard h3 {
+    font-size: 1.25rem;
+  }
+
+  .contentCard img {
+    max-width: 65px;
+  }
+
+  .contentCard p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .contentCard {
+    padding: 2rem;
+    height: 425px;
+  }
+
+  .contentCard h3 {
+    font-weight: bold;
+  }
+
+  .contentCard img {
+    max-width: 80px;
+  }
+
+  .contentCard p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+  .contentCard {
+    height: 440px;
+  }
+
+  .contentCard h3 {
+    font-size: 1.5rem;
+  }
+}

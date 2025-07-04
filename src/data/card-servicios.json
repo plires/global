@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "DESPACHANTES",
+      "description": "Asesoramiento integral en materia aduanera. Servicio de despachos de importación y exportación.",
+      "imgSrc": "despachantes.webp"
+    },
+    {
+      "id": 2,
+      "title": "LOGÍSTICA",
+      "description": "Ofrecemos la opción de transporte internacional que se adecúe a sus necesidades en tiempos de tránsito y costos.",
+      "imgSrc": "logistica.webp"
+    },
+    {
+      "id": 3,
+      "title": "DEPÓSITO",
+      "description": "Almacenaje y distribución de mercadería en modernas instalaciones con equipamiento de última generacón.",
+      "imgSrc": "deposito.webp"
+    },
+    {
+      "id": 4,
+      "title": "MUDANZAS",
+      "description": "Mudanzas nacionales en general, mobiliario de oficinas o particular.",
+      "imgSrc": "mudanzas.webp"
+    }
+  ]
+}
