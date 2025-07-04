@@ -25,33 +25,7 @@ export default function Formulario({ preTitle = null, title = null }) {
     const token = await executeRecaptcha('form_contacto')
     values.recaptchaToken = token
 
-    values.origin = import.meta.env.VITE_NAME_LANDING
-
-    const urlParams = new URLSearchParams(window.location.search)
-
-    if (urlParams.has('utm_source')) {
-      values.utm_source = urlParams.get('utm_source')
-    } else {
-      values.utm_source = 'No Set'
-    }
-
-    if (urlParams.has('utm_medium')) {
-      values.utm_medium = urlParams.get('utm_medium')
-    } else {
-      values.utm_medium = 'No Set'
-    }
-
-    if (urlParams.has('utm_campaign')) {
-      values.utm_campaign = urlParams.get('utm_campaign')
-    } else {
-      values.utm_campaign = 'No Set'
-    }
-
-    if (urlParams.has('utm_content')) {
-      values.utm_content = urlParams.get('utm_content')
-    } else {
-      values.utm_content = 'No Set'
-    }
+    values.origin = import.meta.env.VITE_NAME
 
     try {
       const res = await axios.post(
