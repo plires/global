@@ -16,7 +16,7 @@ import NotFound from '@/pages/NotFound'
 function App() {
   return (
     <>
-      <Router basename='/dev/'>
+      <Router>
         <Header />
         <main className='page'>
           <ToastContainer autoClose={false} />
