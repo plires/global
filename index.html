@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,49 +9,50 @@
     <!-- Meta Pixel Code -->
     <script>
       !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return
+        if (f.fbq) return;
         n = f.fbq = function () {
           n.callMethod
             ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments)
-        }
-        if (!f._fbq) f._fbq = n
-        n.push = n
-        n.loaded = !0
-        n.version = '2.0'
-        n.queue = []
-        t = b.createElement(e)
-        t.async = !0
-        t.src = v
-        s = b.getElementsByTagName(e)[0]
-        s.parentNode.insertBefore(t, s)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
       })(
         window,
         document,
-        'script',
-        'https://connect.facebook.net/en_US/fbevents.js',
-      )
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
 
-      fbq('init', '123456789012345')
-      fbq('track', 'PageView')
+      fbq("init", "1315786119993150");
+      fbq("track", "PageView");
     </script>
     <!-- End Meta Pixel Code -->
 
     <!-- Google tag (gtag.js) - single loader for GA4 + Google Ads -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3M10V0P8GX"
-    ></script>
+      src="https://www.googletagmanager.com/gtag/js?id=G-3M10V0P8GX"></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag('js', new Date())
+      gtag("js", new Date());
       // Configure both properties with the same gtag instance
-      gtag('config', 'G-3M10V0P8GX') // GA4
-      gtag('config', 'AW-17560234609') // Google Ads
+      gtag("config", "G-3M10V0P8GX"); // GA4
+      gtag("config", "AW-17560234609"); // Google Ads
     </script>
+    <script type="module" crossorigin src="/assets/index-D0pfsYrR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-XdcBR6LX.css" />
   </head>
   <body>
     <!-- Meta Pixel (noscript) -->
@@ -60,12 +61,10 @@
         height="1"
         width="1"
         style="display: none"
-        src="https://www.facebook.com/tr?id=123456789012345&ev=PageView&noscript=1"
-      />
+        src="https://www.facebook.com/tr?id=1315786119993150&ev=PageView&noscript=1" />
     </noscript>
     <!-- End Meta Pixel (noscript) -->
 
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
