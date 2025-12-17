@@ -13,6 +13,8 @@ import Tecnologia from '@/pages/Tecnologia.jsx'
 import Contacto from '@/pages/Contacto.jsx'
 import NotFound from '@/pages/NotFound'
 
+import FloatingWhatsApp from '@/components//commons/FloatingWhatsApp.jsx'
+
 function App() {
   return (
     <>
@@ -33,6 +35,7 @@ function App() {
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
+        <FloatingWhatsApp />
         <Footer />
       </Router>
     </>
