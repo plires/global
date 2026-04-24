@@ -23,15 +23,19 @@ const Home = () => {
         imgSrc={compu}
         title='Tracking de envios'
         description='Con nuestra tecnología de avanzada, seguí tu envío al instante y conocé su estado en cada etapa del recorrido.'
-        link='#'
+        link='/tracking'
+        textLink='Ver más'
       />
 
       <ImagenTexto
         imgSrc={barco}
-        title='Arribos en<br />tiempo real'
-        description='Información de carga para planicar y coordinar sus operaciones eficientemente.'
-        link='#'
+        title='Acceso<br />a clientes'
+        description='Información de carga para planificar y coordinar sus operaciones eficientemente.'
+        link='http://jglobal.ddns.net:8080/brainsys_deposito/default.aspx'
+        textLink='Ingresar'
         dir={false}
+        target='_blank'
+        rel='noopener noreferrer'
       />
       <Faja
         title='Unimos distancias'

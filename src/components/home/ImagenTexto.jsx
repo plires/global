@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import './imagen-texto.css'
 
-const Tracking = ({ imgSrc, title, description, link, dir = true }) => {
+const Tracking = ({ imgSrc, title, description, link, textLink, dir = true, target=null, rel=null }) => {
   const contentImg = (
     <div className='col-lg-6 contentImg'>
       <img
@@ -19,8 +19,14 @@ const Tracking = ({ imgSrc, title, description, link, dir = true }) => {
       <div className='content'>
         <h3 dangerouslySetInnerHTML={{ __html: title }} />
         <p data-aos='fade-up'>{description}</p>
-        <Link data-aos='fade-up' className='transition' to={link}>
-          Ver más
+        <Link 
+          data-aos='fade-up' 
+          className='transition' 
+          to={link} 
+          target={target ? target : undefined}
+          rel={rel ? rel : undefined}
+        >
+          {textLink}
         </Link>
       </div>
     </div>

@@ -91,7 +91,11 @@ header nav a.active {
 }
 
 @media (min-width: 992px) {
-  header {
+ 
+}
+
+@media (min-width: 1200px) {
+   header {
     height: auto;
     padding: 30px;
   }
@@ -176,9 +180,6 @@ header nav a.active {
   header.fixed nav a {
     font-size: 1rem;
   }
-}
-
-@media (min-width: 1200px) {
 }
 
 @media (min-width: 1400px) {

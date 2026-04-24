@@ -47,6 +47,10 @@ footer .contentSocial {
 }
 
 @media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
   footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -71,9 +75,6 @@ footer .contentSocial {
   footer .contentSocial {
     gap: 1rem;
   }
-}
-
-@media (min-width: 1200px) {
 }
 
 @media (min-width: 1400px) {

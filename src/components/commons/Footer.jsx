@@ -40,6 +40,24 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
+                <a 
+                  href="http://jglobal.ddns.net:8080/brainsys_deposito/default.aspx" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="transition"
+                >
+                  Acceso a clientes
+                </a>
+              </li>
+              <li>
+                <NavLink
+                  className='transition'
+                  to='/tracking'
+                >
+                  Tracking
+                </NavLink>
+              </li>
+              <li>
                 <NavLink className='transition' to='/contacto'>
                   Contacto
                 </NavLink>

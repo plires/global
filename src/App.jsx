@@ -10,6 +10,7 @@ import Home from '@/pages/Home'
 import Nosotros from '@/pages/Nosotros'
 import ServiciosSoluciones from '@/pages/ServiciosSoluciones.jsx'
 import Tecnologia from '@/pages/Tecnologia.jsx'
+import Tracking from '@/pages/Tracking.jsx'
 import Contacto from '@/pages/Contacto.jsx'
 import NotFound from '@/pages/NotFound'
 
@@ -32,6 +33,7 @@ function App() {
             />
             <Route path='/tecnologia' element={<Tecnologia />} />
             <Route path='/contacto' element={<Contacto />} />
+            <Route path='/tracking' element={<Tracking />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>

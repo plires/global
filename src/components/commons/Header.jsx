@@ -104,6 +104,26 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
+            <a 
+              href="http://jglobal.ddns.net:8080/brainsys_deposito/default.aspx" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="transition"
+              data-aos="fade-up"
+            >
+              Acceso a clientes
+            </a>
+          </li>
+          <li>
+            <NavLink
+              className='transition'
+              to='/tracking'
+              onClick={() => changeIconMobile()}
+            >
+              Tracking
+            </NavLink>
+          </li>
+          <li>
             <NavLink
               className='transition'
               to='/contacto'
